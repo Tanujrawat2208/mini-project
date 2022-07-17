@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/22/19/25/adult-1850177__480.jpg);
+    
+    background-position: center;
+    font-family: sans-serif;
+}
+.Form-Box{
+    margin: 5% auto;
+    padding:20px 0;
+    color:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    background-size:50px;
+    width:700px;
+    padding:40px;
+    position:absolute;
+    top:40%;
+    left:40%;
+    transform:translate(-50%,-50%);
+    background:rgba(0,0,0,0.4);
+    text-align:center;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.input-box{
+    margin:31px auto;
+    width:80%;
+    border-bottom:1px solid#fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input-box input{
+    width:90%;
+    border:none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder{
+    color: #ccc;
+}
+.fa{
+    margin-left: 20px;
+}
+.eye{
+    position:absolute;
+}
+#hide1{
+    display: none;
+}
+.Form-Box[type="Login"]{
+    margin:80px auto 20px;
+    width:100px;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    background: transparent;
+    color:black;
+    font-size: 25px;
+    text-align:left;
+    transition:0.25px;
+    cursor:pointer;
+}
+.box input[type="Login"]:hover
+{
+    background-color:black;
+}
